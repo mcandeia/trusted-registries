@@ -14,6 +14,10 @@ export default function () {
       type: "http",
       baseUrl: "http://localhost:8000",
     },
+    "local-socket": {
+      type: "websocket",
+      baseUrl: "ws://localhost:8000",
+    },
     "deco": {
       org: "deco-sites",
       repo: "deco",
