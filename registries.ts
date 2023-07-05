@@ -16,7 +16,7 @@ export default function () {
     },
     "local-socket": {
       type: "websocket",
-      baseUrl: "http://localhost:8000",
+      baseUrl: "ws://localhost:8000",
     },
     "deco": {
       org: "deco-sites",
