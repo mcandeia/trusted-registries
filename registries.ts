@@ -7,7 +7,7 @@ export default function () {
         const [deployment, ...urls] = alias.split(
           "@",
         );
-        return `ws://deco-sites-${deployment}.deno.dev${urls.join("@")}`;
+        return `wss://deco-sites-${deployment}.deno.dev${urls.join("@")}`;
       }, // `deco-sites.name-deployment@/url
     },
     "local": {
